@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'BodoniBook';
+    src: url('BodoniBook/fonts/BodoniBook.eot');
+    src: url('BodoniBook/fonts/BodoniBook.eot') format('embedded-opentype'),
+         url('BodoniBook/fonts/BodoniBook.woff2') format('woff2'),
+         url('BodoniBook/fonts/BodoniBook.woff') format('woff'),
+         url('BodoniBook/fonts/BodoniBook.ttf') format('truetype'),
+         url('BodoniBook/fonts/BodoniBook.svg#BodoniBook') format('svg');
+}
