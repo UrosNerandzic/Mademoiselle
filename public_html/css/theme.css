@@ -9906,4 +9906,51 @@ body {
   font-family: "BodoniBook";
 }
 
+header .navbar-brand img {
+  width: 196px;
+  height: 25px;
+}
+
+header .navbar-toggler span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin-bottom: 5px;
+  background-color: #D0B6B6;
+}
+
+header .navbar-toggler span:last-of-type {
+  margin-bottom: 0;
+}
+
+header .navbar-nav a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 0;
+  border-bottom: 1px solid transparent;
+}
+
+header .navbar-nav a:hover, header .navbar-nav a.active {
+  border-bottom: 1px solid #D0B6B6;
+}
+
+@media (min-width: 768px) {
+  header .navbar-nav li {
+    margin-left: 20px;
+  }
+  header .navbar-nav a {
+    padding-bottom: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  header .navbar-nav li {
+    margin-left: 72px;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
