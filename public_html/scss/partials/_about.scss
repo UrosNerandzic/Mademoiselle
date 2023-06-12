@@ -1,0 +1,130 @@
+$about-font: $bodonibook;
+.about-section-two{
+    .input-about{
+        background-image: url('..//img/icon.png');
+        background-repeat: no-repeat;
+        text-indent: 20px;
+        background-size: 20px;
+        background-position: 141px 3px;
+        border: 1px solid #1E1E1E;
+        margin-bottom: 43px;
+        padding-left: 15px;
+        &::placeholder{
+            color:#1E1E1E;
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
+    .about-section-two-p1{
+        text-align: center;
+        font-weight: 300;
+        line-height: 28px;
+    }
+    .about-section-two-p2{
+        font-weight: 300;
+        line-height: 26px;
+    }
+    .about-section-two-title{
+        font-size: 31px;
+        line-height: 50px;
+        text-align: center;
+        font-weight: 400;
+    }
+    .about-section-two-item{
+        .home-section-two-text-1{
+            font-style: italic;
+            font-weight: 300;
+            font-family: $about-font;
+        }
+        .home-section-two-text-2{
+            font-family: $lato;
+        }
+    }
+}
+
+
+
+@media(min-width:576px){
+    .about-section-two{
+        .about-section-two-title{
+            font-size: 25px;
+            line-height: 40px;
+            text-align: center;
+        }
+        .home-section-two-text {
+            font-size: 1rem;
+            position: absolute;
+            margin-top: 125px;
+            background-color: #fff;
+            text-align: center;
+            left: 2.5rem;
+            right: 2.9rem;
+        }
+        .about-section-two-item{
+            padding-bottom: 100px;
+        }
+    }
+}
+
+
+@media(min-width:768px){
+    .about-section-two{
+        .about-section-two-title{
+            font-size: 30px;
+        }
+        .home-section-two-text {
+            margin-top: 112px;
+        }
+    }
+}
+
+
+
+@media(min-width:992px){
+    .about-section-two{
+        margin-bottom: 143px;
+        .input-about{
+            background-position: 264px 25px;
+            height: 6.9rem;
+            width: 310px;
+            margin-bottom: 4.3rem;
+            padding-left: 1.5rem;
+        }
+        figure{
+            img{
+                margin-bottom: 6.6rem;
+            }
+        }
+        .about-section-two-p1{
+            text-align: left;
+            font-size: 2rem;
+            margin-bottom: 2.9rem;
+        }
+        .about-section-two-p2{
+            font-size: 1.8rem;
+        }
+        .about-section-two-title{
+            line-height: 5rem;
+            font-size: 4.4rem;
+            text-align: left;
+        }
+        .about-section-two-item{
+            .home-section-two-text{
+                padding: 22px 0px 40px 0px;
+                margin-top: 132px;
+            }
+            .home-section-two-text-1{
+
+                font-style: italic;
+                font-size: 14px;
+                line-height: 1.7rem;
+                letter-spacing: 1px;
+            }
+            .home-section-two-text-2{
+                font-size: 1.5rem;
+
+            }
+        }
+    }
+}
+

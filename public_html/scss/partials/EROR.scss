@@ -1,0 +1,24 @@
+$eror-color: #fff;
+.eror.home-page{    
+    @include home-span(0, 0);
+    .home-section-three-link{   
+            border: 1px solid $eror-color;
+            background-color: transparent;
+            padding: 10px;
+            font-size: 1rem;
+            line-height: 1.7rem;
+            font-family: $lato;
+            letter-spacing: 0.5px;
+            margin-bottom: 150px; 
+            color: $eror-color;
+    }
+    .eror-item{
+        padding-bottom: 150px;
+        padding-top: 189px;
+    .home-title{
+        padding: 0px;
+        margin-bottom: 32px;
+        line-height: 84px;
+    }
+    }
+}

@@ -1,0 +1,38 @@
+$blog-font-p: $bodonibook;
+.home-section-two{
+    .blog-section{
+        margin-bottom: 1rem;
+    }
+.blog-section-Allp{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+.blog-section-p{
+   font-family: $blog-font-p;
+}
+}
+} 
+@media(min-width:576px){
+.home-section-two{
+    margin-bottom: 0;
+    .blog-section{
+        margin-bottom: 3.6rem;
+    }
+}
+}
+@media(min-width:768px){
+.home-section-two{
+    .blog-section{
+        margin-bottom: 5.7rem;
+    }
+}
+}
+
+@media(min-width:992px){
+.home-section-two{
+    .blog-section{
+        margin-bottom: 119px;
+    }
+}
+
+}
