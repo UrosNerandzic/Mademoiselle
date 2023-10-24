@@ -1,0 +1,32 @@
+$general-font: $bodonibook;
+$general-font-p: $lato;
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 10px; // 1 rem
+}
+body {
+  font-family: $general-font;
+  h2 {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+  h3 {
+    font-family: $lato;
+  }
+  p {
+    font-family: $general-font-p;
+  }
+}
+
+@mixin home-span($marginT, $marginA) {
+  .span-home {
+    border-bottom: 1px solid #ecd9d9;
+    display: block;
+    width: 7.4rem;
+    margin: $marginT $marginA;
+    margin-bottom: 4.6rem;
+  }
+}

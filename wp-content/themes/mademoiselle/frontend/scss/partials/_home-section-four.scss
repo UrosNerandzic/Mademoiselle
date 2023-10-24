@@ -1,0 +1,119 @@
+.home-section-four {
+  margin-bottom: 67px;
+  .home-section-three-title {
+    text-align: center;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+    font-size: 1.7rem;
+    padding-top: 56px;
+  }
+  .span-home {
+    border-bottom: 1px solid #ecd9d9;
+    display: block;
+    width: 7.4rem;
+    margin: 0 0;
+    margin-bottom: 0px;
+    margin-bottom: 4.6rem;
+  }
+
+  .home-section-four-item {
+    border: 1px solid #ecd9d9;
+
+    .home-section-four-alltext {
+      .home-section-four-title {
+        margin-bottom: 35px;
+        text-align: center;
+      }
+    }
+    .home-section-four-text {
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .home-section-four {
+    .home-section-four-item {
+      .home-section-four-alltext {
+        .home-section-four-title {
+          margin-bottom: 35px;
+          text-align: center;
+          font-size: 25px;
+          padding-top: 20px;
+        }
+      }
+      .home-section-four-text {
+        text-align: center;
+        font-size: 10px;
+      }
+      .home-section-three-title {
+        padding-top: 60px;
+      }
+    }
+  }
+}
+//media-end
+
+@media (min-width: 768px) {
+  .home-section-four {
+    .home-section-four-item {
+      .home-section-four-alltext {
+        padding-left: 58px;
+        padding-right: 75px;
+        .home-section-four-title {
+          margin-bottom: 20px;
+          font-size: 25px;
+        }
+      }
+      .home-section-four-text {
+        text-align: center;
+        font-size: 14px;
+      }
+    }
+    .home-section-three-title {
+      padding-top: 100px;
+      margin-bottom: 1.9rem;
+      text-align: left;
+      line-height: 4.5rem;
+      letter-spacing: 0;
+      font-size: 30px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .home-section-four-items .owl-dots {
+    margin-top: -69px !important;
+    position: absolute;
+    margin-left: 551px;
+  }
+  .home-section-four {
+    position: relative;
+
+    .home-section-three-title {
+      text-align: left;
+      line-height: 45px;
+    }
+
+    .home-section-four-item {
+      padding: 54px 0 54px 95px;
+
+      .home-section-four-alltext {
+        padding-left: 107px;
+        padding-right: 69px;
+        .home-section-four-title {
+          margin-bottom: 35px;
+          padding-top: 31px;
+          font-size: 30px;
+          text-align: left;
+        }
+
+        .home-section-four-text {
+          font-weight: 300;
+          line-height: 23px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

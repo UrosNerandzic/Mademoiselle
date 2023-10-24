@@ -1,0 +1,79 @@
+$home-section-two-bg: $white;
+$home-section-two-p-font: $bodonibook;
+
+.home-section-two {
+  .span-home {
+    border-bottom: 1px solid #ecd9d9;
+    display: block;
+    width: 7.4rem;
+    margin: 0 0;
+    margin-bottom: 0px;
+    margin-bottom: 4.6rem;
+  }
+  margin-bottom: 5.6rem;
+  .home-section-two-title {
+    text-align: center;
+    line-height: 2.5rem;
+    letter-spacing: 0;
+    font-size: 1.7rem;
+  }
+  .home-section-two-text {
+    .home-section-two-text-1 {
+      font-family: $home-section-two-p-font;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 1rem;
+      line-height: 1.7rem;
+      letter-spacing: 1px;
+      margin: 10px 0 1px 0;
+    }
+    .home-section-two-text-2 {
+      margin-bottom: 10px;
+      height: 4.5rem;
+      overflow: hidden;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .home-section-two {
+    margin-bottom: 137px;
+    .home-section-two-text {
+      position: absolute;
+      bottom: -22px;
+      background-color: $home-section-two-bg;
+      text-align: center;
+      left: 2.5rem;
+      right: 2.9rem;
+      .home-section-two-text-1 {
+        font-size: 1rem;
+        margin: 3px 0 1px 0;
+      }
+      .home-section-two-text-2 {
+        font-size: 1.3rem;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .home-section-two {
+    .home-section-two-title {
+      margin-bottom: 1.9rem;
+      text-align: left;
+      line-height: 4.5rem;
+      letter-spacing: 0;
+      font-size: 30px;
+    }
+    .home-section-two-text {
+      .home-section-two-text-1 {
+        font-size: 14px;
+        margin: 22px 0 17px 0;
+      }
+      .home-section-two-text-2 {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}

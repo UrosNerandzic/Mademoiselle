@@ -1,0 +1,112 @@
+$contact-section-two-color: #ECD9D9;
+$contact-p-a-color:#1E1E1E;
+$contact-font: $lato;
+$color-eror-validator: $red;
+.contact{
+    margin-bottom: 5px;
+}
+
+.contact-section-one{
+    .contact-title{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    .form-group{
+        font-family: $contact-font;
+        font-weight: 300;
+        line-height: 2.4rem;
+    }
+    .form-control{
+        background-color: rgba(#253D61, 0.02); 
+        border:none;
+        height: 50px !important;
+        line-height: 5rem;
+        padding: 0 10px;
+    }
+    textarea.form-control{
+        height: 125px !important;
+        resize:none;
+    }
+    .error-msg *{
+        color:$color-eror-validator;
+        font-size: 1.4rem;
+    }
+        @include home-span(0, 0);
+        .home-section-three-link{
+            text-decoration-color:$primary;
+            border: 1px solid #1E1E1E;
+            background-color: transparent;
+            padding: 10px;
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-family: $lato;
+            letter-spacing: 0.5px;
+        }
+        .contact-map{
+            margin-bottom: 2rem;
+            opacity: 0.45;
+  background-color: #ECD9D9;
+        }
+
+}
+@media(min-width:768px){
+    .contact-section-one{
+        margin-bottom: 110px;
+    .contact-title{
+        font-size: 3rem;
+        text-align:left;
+        line-height: 4.5rem;
+        letter-spacing: 5px;
+    }
+
+      .contact-map{
+    margin-bottom: 0px;
+    float: right;
+    width: 40%;
+    height: 450px;
+    }
+}  
+}
+@media(min-width:992px){
+    .contact{
+    margin-bottom: 5.1rem;
+}    
+}
+
+.contact-section-two{
+    background-color: $contact-section-two-color;
+    .contact-info{
+        padding: 20px 0 20px;
+        p,a {        
+            text-align: center;
+            color:$contact-p-a-color;
+        }
+        
+    }
+}
+
+@media(min-width:768px){
+    .contact-section-two{
+    
+    .contact-info{
+        padding: 63px 0 60px;  
+        p,a {
+            margin-bottom: 1.5rem;
+            font-size: 2.4rem;
+            line-height: 2.5rem;
+            text-align: center;
+            color:$contact-p-a-color;
+        }
+        
+    }
+}
+}
+
+
+
+
+
+
+
+
+ 

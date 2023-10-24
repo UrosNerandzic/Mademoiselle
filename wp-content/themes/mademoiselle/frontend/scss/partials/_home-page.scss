@@ -1,0 +1,39 @@
+$home-title-color: #fff;
+
+.home-page {
+  margin-bottom: 3rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+  .home-title {
+    margin: 0px;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    font-weight: 300;
+    text-align: center;
+    color: $home-title-color;
+  }
+}
+
+@media (min-width: 576px) {
+  .home-page {
+    padding: 37px 0;
+    .home-title {
+      font-size: 4.5rem;
+      letter-spacing: 10px;
+      line-height: 78px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .home-page {
+    margin-bottom: 7.5rem;
+    padding: 182px 0;
+    .home-title {
+      font-size: 6rem;
+      letter-spacing: 2rem;
+    }
+  }
+}
